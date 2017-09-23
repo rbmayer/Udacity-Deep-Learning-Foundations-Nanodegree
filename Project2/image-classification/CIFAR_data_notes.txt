@@ -1,0 +1,44 @@
+CIFAR-10 dataset for Project 2
+5 batches [data_batch_1, etc]
+
+    airplane
+    automobile
+    bird
+    cat
+    deer
+    dog
+    frog
+    horse
+    ship
+    truck
+
+
+Each batch contains a mix of images from different categories
+Order of samples in batch appears to be random
+Labels range from 0-9
+Pixel values range from 0 - 255
+Image shapes: (32, 32, 3) only shape found in sampling
+
+Batch 1: 
+Stats of batch 1:
+Samples: 10000
+Label Counts: {0: 1005, 1: 974, 2: 1032, 3: 1016, 4: 999, 5: 937, 6: 1030, 7: 1001, 8: 1025, 9: 981}
+First 20 Labels: [6, 9, 9, 4, 1, 1, 2, 7, 8, 3, 4, 7, 7, 2, 9, 9, 9, 3, 2, 6]
+
+Example of Image 5:
+Image - Min Value: 0 Max Value: 252
+Image - Shape: (32, 32, 3)
+Label - Label Id: 1 Name: automobile
+Color or greyscale = color
+
+Batch 2: 
+Stats of batch 2:
+Samples: 10000
+Label Counts: {0: 984, 1: 1007, 2: 1010, 3: 995, 4: 1010, 5: 988, 6: 1008, 7: 1026, 8: 987, 9: 985}
+First 20 Labels: [1, 6, 6, 8, 8, 3, 4, 6, 0, 6, 0, 3, 6, 6, 5, 4, 8, 3, 2, 6]
+
+Example of Image 5:
+Image - Min Value: 3 Max Value: 219
+Image - Shape: (32, 32, 3)
+Label - Label Id: 3 Name: cat
+Color image
