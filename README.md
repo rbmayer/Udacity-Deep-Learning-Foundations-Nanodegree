@@ -1,3 +1,8 @@
-# Deep-Learning-Foundation
+# Deep Learning Foundations
 
-Project submissions for August 2017 cohort of Udacity's Deep Learning Foundation courses.
+This repo contains the projects I submitted to complete Udacity's Deep Learning Foundation Nanodegree.
+
+Topics covered include:
+* convolutional neural networks (CNN)
+* recurrent neural networks (RNN)
+* generative adversarial networks (GAN)
